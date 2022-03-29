@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Checkbox } from 'antd';
 
 import { onChecked } from '../../action/actionCreator';
-import classes from '../CheckBox/checkbox.module.scss';
+import classes from '../CheckBox/checkBox.module.scss';
 
 const CheckBox = () => {
   const dispatch = useDispatch();
