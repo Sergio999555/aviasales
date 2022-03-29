@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .button__filter-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 22px;
+    margin-bottom: 24px;
+  }
+  .button__filter {
+    border: 1px solid #dfe5ec;
+    font-size: 12px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .button__filter:hover {
+    background-color: #2196f3;
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .button__filter-wrapper {
+    display: flex;
+    margin-bottom: 22px;
+  }
+
+  .button__filter {
+    border: 1px solid #dfe5ec;
+    width: 168px;
+    height: 50px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .button__filter:hover {
+    background-color: #2196f3;
+    color: #fff;
+  }
+}

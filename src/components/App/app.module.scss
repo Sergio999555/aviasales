@@ -1,0 +1,26 @@
+.container {
+  max-width: 760px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f7fa;
+}
+
+.spin {
+  margin-bottom: 20px !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+.alert {
+  margin-bottom: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+}

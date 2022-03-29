@@ -1,0 +1,47 @@
+.checkbox {
+  width: 232px;
+  height: 252px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__title {
+    padding-top: 20px;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4a4a4a;
+
+    @media (max-width: 768px) {
+      padding-top: 20px;
+    }
+  }
+
+  &__checkboxList {
+    padding-top: 8px;
+    padding-left: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    height: 40px;
+  }
+
+  &__checkboxList:hover {
+    background: #f1fcff;
+  }
+}
