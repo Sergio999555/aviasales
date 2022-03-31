@@ -16,6 +16,17 @@
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   }
 
+  .button__filter-active {
+    border: 1px solid #dfe5ec;
+    font-size: 12px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2196f3;
+    color: #fff;
+  }
+
   .button__filter:hover {
     background-color: #2196f3;
     color: #fff;
@@ -36,6 +47,17 @@
     background-color: #fff;
     border-radius: 5px;
   }
+
+  .button__filter-active {
+    border: 1px solid #dfe5ec;
+    width: 168px;
+    height: 50px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2196f3;
+    border-radius: 5px;
+    color: #fff;
+  }
+
   .button__filter:hover {
     background-color: #2196f3;
     color: #fff;

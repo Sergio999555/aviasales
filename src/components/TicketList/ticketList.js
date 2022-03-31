@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { getTickets } from '../../action/actionCreator';
+import { getTickets } from '../Store/action/actionCreator';
 import Ticket from '../Ticket/ticket';
 import classes from '../TicketList/ticketList.module.scss';
 

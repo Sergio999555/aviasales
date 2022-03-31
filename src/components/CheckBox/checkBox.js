@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Checkbox } from 'antd';
 
-import { onChecked } from '../../action/actionCreator';
+import { onChecked } from '../Store/action/actionCreator';
 import classes from '../CheckBox/checkBox.module.scss';
 
 const CheckBox = () => {

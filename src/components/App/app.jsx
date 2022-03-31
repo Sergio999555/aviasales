@@ -2,7 +2,7 @@ import { React, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Alert, Spin } from 'antd';
 
-import { getId } from '../../action/actionCreator';
+import { getId } from '../Store/action/actionCreator';
 import Header from '../Header/header';
 import Checkbox from '../CheckBox/checkBox';
 import Filter from '../Filter/filter';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 
-import { onClickMore } from '../../action/actionCreator';
+import { onClickMore } from '../Store/action/actionCreator';
 import classes from '../Moretickets/moreTickets.module.scss';
 
 const MoreTickets = () => {
